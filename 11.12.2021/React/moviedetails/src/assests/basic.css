@@ -1,0 +1,38 @@
+.movie-basic{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.poster{
+    width: 40%;
+    float: left;
+}
+.poster img{
+    width: 22vw;
+    height: 44vh;
+}
+.movie-info{
+    width: 60%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-amt{
+margin: 50px 0px;
+} 
+
+.year, .duration, .genre{
+    margin: 10px;
+}
+button{
+background-color: #2427f0; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+margin: 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
